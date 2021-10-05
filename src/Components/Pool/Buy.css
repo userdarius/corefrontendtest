@@ -1,0 +1,129 @@
+.buy-main {
+  width: 92%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.buy-main p {
+  font-weight: bold;
+}
+
+.buy-window {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stake-window {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.amount-window {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.stake-window {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy-input {
+  font-size: 12.5px;
+  font-family: "Source Code Pro", monospace;
+  line-height: 1.5;
+  cursor: pointer;
+  color: rgb(59, 59, 59) !important;
+  background-color: transparent !important;
+  border: 1px solid rgb(48, 48, 48);
+  /* padding-left: 5px; */
+  padding: 2px;
+  padding-left: 5px;
+  width: 150px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+::placeholder {
+  color: rgb(59, 59, 59);
+  opacity: 0.6; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(59, 59, 59);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(59, 59, 59);
+}
+
+.from-div {
+  margin-top: 10px;
+}
+.to-div {
+  margin-top: 25px;
+}
+
+.pair-box {
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid #000;
+}
+
+.create-pair-slippage {
+  /* width: 200px; */
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.display-pool-staking {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.display-pool-staking-active {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-device-width: 500px) {
+  .buy-main {
+    width: 85%;
+    max-width: 600px;
+  }
+}

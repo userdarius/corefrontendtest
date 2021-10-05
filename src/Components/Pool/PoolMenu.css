@@ -1,0 +1,32 @@
+.pool-menu-main {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pool-menu-button {
+  text-transform: uppercase;
+  font-weight: bold;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  cursor: pointer;
+  /* background-color: linear-gradient(45deg, #f3ec78, #af4261) !important; */
+  background-color: transparent !important;
+  color: #e67f0a !important;
+}
+
+.pool-menu-button-active {
+  text-transform: uppercase;
+  font-weight: bold;
+  /* padding-left: 10px;
+    padding-right: 10px; */
+  cursor: pointer;
+  background-color: #e67f0a !important;
+  /* background-image: linear-gradient(60deg, #f3ec78, #af4261) !important; */
+  color: #fff !important;
+}
+
+.data-to-show {
+  margin-top: 20px;
+}
